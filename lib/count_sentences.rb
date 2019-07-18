@@ -16,9 +16,9 @@ class String
   end
 
   def count_sentences
-    x = self.split(".", "!")
-    puts x.to_s
+    self.split(".", "!")
   end
+  
 end
 
 
