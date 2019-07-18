@@ -26,6 +26,7 @@ end
 x = "My name is Jon. His name is Will Her name is Lucy?"
 y = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
 x.count_sentences
+binding.pry
 
 
 
