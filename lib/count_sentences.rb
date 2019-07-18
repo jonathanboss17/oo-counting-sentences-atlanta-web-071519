@@ -18,7 +18,6 @@ class String
   def count_sentences
     x = []
     x = self.split(".", "!")
-    binding.pry
     puts x
   end
 end
