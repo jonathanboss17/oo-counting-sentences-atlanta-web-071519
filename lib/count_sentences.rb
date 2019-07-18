@@ -16,22 +16,15 @@ class String
   end
 
   def count_sentences
-    self.split(".", "!", "?")
+    x = self.split(".", "!")
+    puts x.length 
   end
 end
 
 
 x = "My name is Jon. His name is Will Her name is Lucy?"
 y = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
-# if(x.sentence?) 
-#   x.split(".").join
-# elsif(x.question?)
-# y =  x.split("?")
-# elsif(x.exclamation?)
-# y =  x.split("!")
-# end
-
-puts y.split(".").join.split("!").join.split("?")
+x.count_sentences
 
 
 
